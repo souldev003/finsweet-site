@@ -3,3 +3,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+.btn {
+  background-image: url(./images/generated_image_78850c1c-cce9-4f94-a8ba-a6e2e7bb16c9.png);
+  padding: 200px 400px;
+  background-position: center;
+  border: none;
+  border-radius: 100px 0 100px 0;
+  font-size: 100px;
+  font-weight: bolder;
+  color: white;
+}
