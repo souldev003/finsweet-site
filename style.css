@@ -3,13 +3,35 @@
   padding: 0;
   box-sizing: border-box;
 }
-.btn {
-  background-image: url(./images/generated_image_78850c1c-cce9-4f94-a8ba-a6e2e7bb16c9.png);
-  padding: 200px 400px;
-  background-position: center;
-  border: none;
-  border-radius: 100px 0 100px 0;
-  font-size: 100px;
+body {
+  background: linear-gradient(90deg, #160864, #200000);
+}
+.Logo {
+  width: 60px;
+}
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 80px auto;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(15px);
+}
+
+.text-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.text-item a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
   font-weight: bolder;
-  color: white;
+  text-align: center;
+  padding: 15px 30px;
+  background: linear-gradient(90deg, #9b06ff, #5504ec);
+  border-radius: 30px 0;
 }
